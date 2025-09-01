@@ -1,0 +1,21 @@
+[project]
+name = "buddybet-logmon-common"
+version = "0.1.0"
+description = "Librería de logging en formato JSON con integración para FastAPI"
+authors = [
+    {name = "ricardomarzochi07",email = "ricardomarzochi@gmail.com"}
+]
+readme = "README.md"
+license = "MIT"
+homepage = "https://github.com/tuusuario/buddybet-logmon-common"
+repository = "https://github.com/tuusuario/buddybet-logmon-common"
+keywords = ["logging", "json", "fastapi", "monitoring", "observability"]
+requires-python = ">=3.12"
+
+dependencies = [
+     "fastapi (>=0.116.1,<0.117.0)",
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
